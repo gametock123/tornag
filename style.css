@@ -10,16 +10,12 @@
     font-size: 62.5%;
 }
 
+/*pcb*/
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines{
     display: none;
 }
 
-.container{
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
-}
 
 .navbar{
     margin-right: 50%;
@@ -63,7 +59,7 @@
     }
 
 .navbar a:hover{
-    color:#black ;
+   /* color:#black ;
     border-radius: 10% 100px 50px;
     width: 50px;
     height: 50px;
@@ -71,7 +67,15 @@
     box-shadow: 10px 5px 5px 5px #5022A5;
     color: #4EBDEA ;
     width: 70px;
-    height: 200px;
+    height: 200px;*/
+     cursor: none;
+    color: #5022A5;
+   /* display: block;*/
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    /*text-decoration: none;*/
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 768px){
@@ -307,7 +311,7 @@ a {
 }
 /*image*/
 .lanat {
-/*  position: relative;*/
+  position: relative;
   font-family: Arial;
   margin-top: 100px;
   margin-right: 47%;
@@ -315,18 +319,20 @@ a {
     border: 20px;
 }
 
-.text-block {
-    margin-top: 100px;
-    margin-left: 53%;
+.dtl {
+
+  color: #4EBDEA ;
+}
+/*.text-container {
+    margin-top: 50px;
+    margin-left: 57%;
   position: absolute;
   bottom: -150px;
-  right: 20px;
+  right: 60px;
   color: #4EBDEA;
   padding-left: 20px;
   padding-right: 20px;
-  border: 20px;
-  border-color: #4EBDEA ;
-}
+}*/
 /*hadd
 /*.hadd{
      border: 2px solid green ;
@@ -534,4 +540,9 @@ body {
     0 0 70px #4EBDEA, 0 0 80px #4EBDEA, 0 0 100px #4EBDEA, 0 0 150px #4EBDEA;
 }
 /*gun*/
+.ssd{
+    max-width: 1200px;
+    width: 120%;
+}
+
 
